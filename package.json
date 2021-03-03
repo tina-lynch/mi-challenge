@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir docs --public-url ./",
+    "build": "rm -rf dist && parcel build index.html --out-dir docs --public-url ./",
     "pack": "npm run pack"
   },
   "dependencies": {},
