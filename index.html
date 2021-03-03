@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <title>MI</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.scss">
+</head>
+
+<body>
+  <div class="zip-container">
+    <form action="">
+      <label for="zip">ZIPCODE</label>
+      <input type="number" id="zip" value="90210">
+      <input type="submit" id="submit" value="Check Forecast">
+    </form>
+  </div>
+
+  <div id="app">
+    <div class="lds-ripple loader hide">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="container">
+      <div>
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="src/app.js"></script>
+
+</html>
